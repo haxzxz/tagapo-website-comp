@@ -7,7 +7,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(/images/background.png);
+    background-image: url(../images/background.png);
     min-height: 1200px;
     background-position: center;
     background-repeat: no-repeat;
@@ -272,7 +272,7 @@
 }
 
 .container-hover:hover .arrow {
-    content: url("images/red\ arrow.png");
+    content: url("../images/red arrow.png");
     /* Path to your red arrow image */
     width: 80px;
     margin-left: 3px;

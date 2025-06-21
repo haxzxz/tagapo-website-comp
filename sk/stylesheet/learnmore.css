@@ -1,4 +1,6 @@
-* {
+  @import url('https://fonts.cdnfonts.com/css/poppins');
+
+  * {
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
   margin: 0;
@@ -6,6 +8,7 @@
 
 
 }
+
 
 body {
   overflow-x: hidden;
@@ -725,6 +728,8 @@ body {
 
 }
 
+
+
 .Backbutton:hover {
   background: white;
   color: #eb0000;
@@ -732,3 +737,35 @@ body {
   border-style: solid;
   border-color: #eb0000;
 }
+/* added media queries */
+@media (min-width: 1700px) {
+  body {
+    display: flex;
+    justify-content: center;
+  }
+
+  .bodycontainer {
+    width: 100%;
+    max-width: 1700px;
+  }
+
+  .top-bar{
+    width: 5000px;
+    position: relative;
+    left: -600px;
+  }
+
+  .down-bar{
+    position: relative;
+    left: -600px;
+    width: 5000px;
+  }
+}
+
+
+
+
+
+
+
+
